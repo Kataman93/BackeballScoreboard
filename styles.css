@@ -1,0 +1,148 @@
+
+body {
+    margin: 0;
+    background: #1B244A;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+}
+
+@font-face {
+    src: url(CursedTimerUlil-Aznm.ttf);
+    font-family: Scoreboard;
+}
+
+.centering {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    color: #FFF;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 43px;
+    margin-top: 40px;
+}
+
+.main-numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F94F6D;
+    width: 400px;
+    height: 200px;
+    margin-bottom: 40px;
+    background: black;
+    font-family: Scoreboard, sans-serif;
+    font-size: 100px;
+}
+
+.main-numbers span {
+    height: fit-content;
+    width: fit-content;
+    margin-top: 18px;
+}
+
+.additional-numbers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+}
+
+.additional-numbers span {
+    color: #9aabd8;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 15px 25px;
+    border: solid 2px #9AABD8;
+    transition: all 0.3s;
+}
+
+.additional-numbers span:hover {
+    color: #49609D;
+    border-color: #49609D;
+    cursor: pointer;
+}
+
+.New-game {
+    position: absolute;
+    bottom: -70px;
+    color: #9aabd8;
+    font-size: 23px;
+    font-weight: 700;
+    width: 260.51px;
+    padding: 10px 0;
+    text-align: center;
+    border: solid 2px #9AABD8;
+    transition: all 0.3s;
+}
+
+.New-game p {
+    margin: 0;
+}
+
+.New-game:hover {
+    color: #49609D;
+    border-color: #49609D;
+    cursor: pointer;
+}
+
+.Save-Delete {
+    position: absolute;
+    bottom: -132px;
+    display: flex;
+    column-gap: 10px;
+}
+
+.Save {
+    color: #9aabd8;
+    font-size: 23px;
+    font-weight: 700;
+    box-sizing: border-box;
+    width: 127.26px;
+    padding: 10px 0;
+    text-align: center;
+    border: solid 2px #9AABD8;
+    transition: all 0.3s;
+}
+
+.Delete {
+    color: #9aabd8;
+    font-size: 23px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border: solid 2px #9AABD8;
+    transition: all 0.3s;  
+}
+
+.Save-Delete p {
+    margin: 0;
+}
+
+.Save:hover, .Delete:hover {
+    color: #49609D;
+    border-color: #49609D;
+    cursor: pointer;
+}
+
+.Previous-result {
+    border-bottom: solid 3px #FFF;
+    width: 98%;
+    position: absolute;
+    bottom: -205px;
+}
+
+.Previous-result p {
+    color: #FFF;
+    margin-bottom: 10px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
